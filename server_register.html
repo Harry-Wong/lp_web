@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>旅拍者</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap-lvpaizhe.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" >
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+	<![endif]-->
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel-lvpaizhe.css" rel="stylesheet">
+    <link href="css/lvpaizhe.css" rel="stylesheet">    
+    <link href="css/navbar-fixed-top.css" rel="stylesheet"> 
+  </head>
+    
+  <body>
+    <!-- NAVBAR================================================== -->
+    <nav class="navbar navbar-lvpaizhe navbar-fixed-top">
+        <div class="container">        
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <span  class="visible-lg-block visible-xs-block"><a class="navbar-brand" href="#">旅拍者</a></span>
+          </div>
+
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">首页</a></li>
+              <li><a href="#about">摄影师</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">拍摄地<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">国内拍摄地</a></li>
+                  <li><a href="#">国外拍摄地</a></li>
+                </ul>
+              </li>
+              <li><a href="#contact">造型师</a></li>
+              <li><a href="#contact">摄影机构</a></li>
+              <li class="visible-lg-block"><a href="#contact">火热团购</a></li>
+              <li class="visible-lg-block"><a href="#contact">免费活动</a></li>
+              <li><a href="#contact">客片欣赏</a></li>
+              <li class="visible-lg-block"><a href="#contact">关于旅拍者</a></li>
+              <li><a href="#contact">加盟入驻</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#contact">登录</a></li>
+              <li><a href="#contact">注册</a></li>              
+            <ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- 路径导航 -->
+    <div class="container"> 
+      <ol class="breadcrumb">
+	    <li><a href="index.html">首页</a></li>
+	    <li class="active">加盟入驻</li>
+	  </ol>
+    </div>
+
+
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <img src="img/g3.jpg"  height="420" >
+        </div>
+      </div>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+  	    <div class="col-lg-12 lvpaizhe-padding-bottom text-center">
+          <h3>身份选择 
+          	<small>每个帐号只能选择一种身份。 我一专多能，又能拍照又能化妆，
+          	  <button type="button" class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-sm">怎么破？</button>
+			</small>
+		  </h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <span class="icon-camera-retro icon-4x"></span>
+          <h2>摄影师</h2>
+          <p>独立个人摄影师。我的时间我做主，我为自己代言。<br>&nbsp;</p>
+          <a href="photographer_register.html" role="button" class="btn btn-primary btn-lg btn-block">选择摄影师身份注册</a>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <span class="icon-building icon-4x"></span>
+          <h2>摄影机构</h2>
+          <p>拥有摄影师、造型师、摄影服装及影棚资源的摄影工作室、影楼等。</p>
+          <a href="agency_register.html" role="button" class="btn btn-primary btn-lg btn-block">选择摄影机构身份注册</a>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <span class="icon-cut icon-4x"></span>
+          <h2>造型师</h2>
+          <p>个人造型师及化妆师。<br>&nbsp;</p>
+          <a href="stylist_register.html" role="button" class="btn btn-primary btn-lg btn-block">选择造型师身份注册</a>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+
+
+		<!-- /提示框 -->
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title" id="mySmallModalLabel">温馨提示</h4>
+          </div>
+          <div class="modal-body">
+            亲，那您选择摄影师就好了，您在发布摄影套餐的时候可以选择可提供造型服务就好啦！        </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+
+    
+    <!-- FOOTER -->
+    <div class="lvpaizhe-footer">
+    <div class="container">
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 旅拍者版权所有.  </p>
+      </footer>
+    </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jquery/2.1.3/ -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstrap/3.3.2 -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
