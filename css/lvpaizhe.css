@@ -9,7 +9,7 @@ h1,h2,h3 {
 }
 
 .lvpaizhe-background-color {
-  background-color: #f7f7f7;
+  background-color: #eee;
 }
 
 .lvpaizhe-padding-bottom {
@@ -36,14 +36,35 @@ h1,h2,h3 {
   margin-top: -20px;
 }
 
-.photoer-table {
-  margin: auto;
-  line-height: 40px;
-}
-
 .place > img {
   margin-bottom: 5px;
 }
+
+/*摄影师一览部分样式*/
+.lvpaizhe-photographer-index-box {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lvpaizhe-photographer-avatar {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.lvpaizhe-photographer-table {
+  margin: auto;
+  line-height: 35px;
+  margin-left: 0;
+}
+
+.lvpaizhe-photographer-pic {
+  margin-bottom: 10px;
+}
+
+/*摄影师一览部分样式结束*/
 
 .navbar-lvpaizhe {
   background-color: #fbeef7;
